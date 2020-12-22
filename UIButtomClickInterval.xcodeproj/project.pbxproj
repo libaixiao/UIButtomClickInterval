@@ -16,6 +16,7 @@
 		1FFBFE8925921D0600B06AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFBFE8825921D0600B06AB3 /* main.m */; };
 		1FFBFE9325921D0700B06AB3 /* UIButtomClickIntervalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFBFE9225921D0700B06AB3 /* UIButtomClickIntervalTests.m */; };
 		1FFBFE9E25921D0700B06AB3 /* UIButtomClickIntervalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFBFE9D25921D0700B06AB3 /* UIButtomClickIntervalUITests.m */; };
+		1FFBFEB325921DA300B06AB3 /* UIControl+ClickInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFBFEB125921DA300B06AB3 /* UIControl+ClickInterval.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		1FFBFE9925921D0700B06AB3 /* UIButtomClickIntervalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIButtomClickIntervalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFBFE9D25921D0700B06AB3 /* UIButtomClickIntervalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtomClickIntervalUITests.m; sourceTree = "<group>"; };
 		1FFBFE9F25921D0700B06AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFBFEB125921DA300B06AB3 /* UIControl+ClickInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ClickInterval.m"; sourceTree = "<group>"; };
+		1FFBFEB225921DA300B06AB3 /* UIControl+ClickInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ClickInterval.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				1FFBFE7A25921D0400B06AB3 /* SceneDelegate.m */,
 				1FFBFE7C25921D0400B06AB3 /* ViewController.h */,
 				1FFBFE7D25921D0400B06AB3 /* ViewController.m */,
+				1FFBFEB225921DA300B06AB3 /* UIControl+ClickInterval.h */,
+				1FFBFEB125921DA300B06AB3 /* UIControl+ClickInterval.m */,
 				1FFBFE7F25921D0400B06AB3 /* Main.storyboard */,
 				1FFBFE8225921D0600B06AB3 /* Assets.xcassets */,
 				1FFBFE8425921D0600B06AB3 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 			files = (
 				1FFBFE7E25921D0400B06AB3 /* ViewController.m in Sources */,
 				1FFBFE7825921D0400B06AB3 /* AppDelegate.m in Sources */,
+				1FFBFEB325921DA300B06AB3 /* UIControl+ClickInterval.m in Sources */,
 				1FFBFE8925921D0600B06AB3 /* main.m in Sources */,
 				1FFBFE7B25921D0400B06AB3 /* SceneDelegate.m in Sources */,
 			);
@@ -443,6 +449,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UIButtomClickInterval/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +467,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UIButtomClickInterval/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

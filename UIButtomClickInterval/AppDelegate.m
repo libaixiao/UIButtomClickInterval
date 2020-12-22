@@ -15,6 +15,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    if (@available(iOS 13, *)) {
+        
+    } else {
+        self.window = [[UIWindow alloc]initWithFrame:UIScreen.mainScreen.bounds];
+        UIViewController *Controller = [[UIViewController alloc]init];
+        Controller.view.backgroundColor = UIColor.redColor;
+        self.window.rootViewController = Controller;
+        [self.window makeKeyAndVisible];
+    }
+  
     // Override point for customization after application launch.
     return YES;
 }
